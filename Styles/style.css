@@ -390,14 +390,14 @@ header {
 }
 
 .grid-item img {
-    max-width: 100%;
+    width: 100%;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
 
 .grid-item:hover img {
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .image-overlay {
@@ -750,7 +750,10 @@ footer .last p span a{
     }
 
     .wrapper{
-        padding: 40px;
+        padding: 20px;
+    }
+    .navbar{
+        padding: 0 20px;
     }
     .btn{
         font-size: 0.8rem;
@@ -771,6 +774,10 @@ footer .last p span a{
 
     .home-testimonial{
         background: none;
+    }
+
+    .gal-navlist{
+        display: none;
     }
 
     .menu-item{
@@ -843,8 +850,8 @@ footer .last p span a{
     }
 }
 @media (max-width: 502px){
-    .itemlist{
-        display: none;
+    .itemlist li{
+        font-size: 0.7rem;
     }
 }
 
