@@ -7,18 +7,20 @@
 
 }
 
-.about{
+.about {
     background: url(../Images/about\ bg-1.webp) no-repeat scroll right top;
 }
 
-.about-content{
+.about-content {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 2rem;
 }
-
-.about-content .left{
+i{
+    font-size: 1.8rem;
+}
+.about-content .left {
     background: var(--grey-color);
     padding: 2rem;
     min-width: 470px;
@@ -26,10 +28,12 @@
     position: relative;
     z-index: 1;
 }
-.about-content .left p{
+
+.about-content .left p {
     margin: 20px 0;
 }
-.about-content .right img{
+
+.about-content .right img {
     width: 100%;
     object-fit: cover;
 }
@@ -43,28 +47,41 @@
 }
 
 /* End of About section styling */
-.factor{
+.factor {
     background: url(../Images/aboyt\ factor\ bg.webp) no-repeat scroll center center;
     background-size: cover;
 }
-.factor .factor-grid{
+
+.factor .factor-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     place-items: center;
     text-align: center;
 }
+
 .factor h2.counter {
     font-size: 3rem;
     font-weight: bold;
     margin-top: 30px;
 }
 
-.factor-grid a{
+.factor-grid a {
     width: 50px;
     height: 50px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 50%;
     display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.factor-grid .fun-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 }
 
 .factor h5 {
@@ -75,39 +92,42 @@
 
 /* End of Factor section */
 
-.choose{
+.choose {
     background: url(../Images/about\ choose\ bg-2.webp) no-repeat scroll left top;
     text-align: center;
 }
 
-.choose .choose-img{
+.choose .choose-img {
     position: relative;
     top: 140px;
     margin-top: -80px;
     max-width: 100%;
 }
 
-.choose2{
+.choose2 {
     background: var(--grey-color);
     padding-top: 100px;
     text-align: center;
 }
 
-.choose2-grid{
+.choose2-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
 }
 
-.choose-item a{
+.choose-item a {
     width: 50px;
     height: 50px;
     border: 1px dashed rgba(0, 0, 0, 0.2);
     border-radius: 50%;
     display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.choose-item h3{
+.choose-item h3 {
     margin: 30px 0 10px;
 }
 
@@ -115,7 +135,8 @@
 .chef {
     text-align: center;
 }
-.chef .chef-grid{
+
+.chef .chef-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
@@ -123,7 +144,7 @@
 }
 
 
-.chef-img{
+.chef-img {
     position: relative;
     height: 74%;
     width: 100%;
@@ -145,7 +166,7 @@
 }
 
 .image-overlay i {
-    font-size: 48px; 
+    font-size: 48px;
     color: #fff;
     cursor: pointer;
 }
@@ -154,29 +175,31 @@
     opacity: 1;
 }
 
-.chef-item{
+.chef-item {
     margin: 40px 10px 10px;
     border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.chef-item div{
+.chef-item div {
     padding: 10px;
 }
 
-.chef .chef-grid .chef-hide{
+.chef .chef-grid .chef-hide {
     display: none;
 }
 
 @media (max-width: 1040px) {
-    .hide{
+    .hide {
         display: none;
     }
 
-    .about-content .right{
+    .about-content .right {
         top: -30px;
         right: 70px;
     }
-    .about-content .right, .about-content .left{
+
+    .about-content .right,
+    .about-content .left {
         min-width: 400px;
         max-width: 400px;
     }
@@ -185,74 +208,90 @@
 }
 
 @media (max-width:900px) {
-    .about-content{
+    .about-content {
         flex-direction: column;
     }
-    .about-content .right, .about-content .left{
+
+    .about-content .right,
+    .about-content .left {
         min-width: 100%;
         max-width: 100%;
     }
-    .about-content .right{
+
+    .about-content .right {
         top: 0px;
         right: 0px;
-    } 
-    .hide{
+    }
+
+    .hide {
         display: block;
-    } 
-    .factor .factor-grid{
+    }
+
+    .factor .factor-grid {
         grid-template-columns: 1fr 1fr 1fr;
-    } 
-    .factor-grid .fun-icon:last-child{
+    }
+
+    .factor-grid .fun-icon:last-child {
         display: none;
     }
-    .factor h2.counter{
+
+    .factor h2.counter {
         font-size: 2rem;
         margin-top: 20px;
     }
 
-    .choose .choose-img{
+    .choose .choose-img {
         top: 100px;
         margin-top: -80px;
     }
 
-    .choose2{
+    .choose2 {
         padding: 80px 0 0 0;
     }
-    .chef .chef-grid{
+
+    .chef .chef-grid {
         grid-template-columns: 1fr;
     }
-    .chef .chef-grid .chef-hide{
+
+    .chef .chef-grid .chef-hide {
         display: block;
     }
 }
 
 @media (max-width:740px) {
-    .factor .factor-grid{
-        grid-template-columns: 1fr 1fr ;
+    .factor .factor-grid {
+        grid-template-columns: 1fr 1fr;
         gap: 1.2rem 0;
-    } 
-    .factor-grid .fun-icon:last-child{
-        display: block;
     }
 
-    .choose{
+    .factor-grid .fun-icon:last-child {
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .choose {
         background: none;
     }
 
-    .choose2-grid{
+    .choose2-grid {
         grid-template-columns: 1fr;
     }
-    .choose-item p{
+
+    .choose-item p {
         margin: auto;
         width: 430px;
     }
-    .choose2{
+
+    .choose2 {
         padding: 70px 0 0 0;
     }
 }
 
-@media (max-width:500px){
-    .choose-item p{
+@media (max-width:500px) {
+    .choose-item p {
         width: 277px;
     }
 }
