@@ -1,0 +1,258 @@
+:root {
+    --dark-color: #535353;
+    --grey-color: #F1F1F1;
+    --light-color: #fff;
+
+    --red-color: #E54C2A;
+
+}
+
+.about{
+    background: url(../Images/about\ bg-1.webp) no-repeat scroll right top;
+}
+
+.about-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.about-content .left{
+    background: var(--grey-color);
+    padding: 2rem;
+    min-width: 470px;
+    max-width: 470px;
+    position: relative;
+    z-index: 1;
+}
+.about-content .left p{
+    margin: 20px 0;
+}
+.about-content .right img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.about-content .right {
+    width: 470px;
+    position: relative;
+    right: 80px;
+    top: -40px;
+    z-index: 0;
+}
+
+/* End of About section styling */
+.factor{
+    background: url(../Images/aboyt\ factor\ bg.webp) no-repeat scroll center center;
+    background-size: cover;
+}
+.factor .factor-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+    text-align: center;
+}
+.factor h2.counter {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.factor-grid a{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.factor h5 {
+    /* font-weight: bold; */
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+/* End of Factor section */
+
+.choose{
+    background: url(../Images/about\ choose\ bg-2.webp) no-repeat scroll left top;
+    text-align: center;
+}
+
+.choose .choose-img{
+    position: relative;
+    top: 140px;
+    margin-top: -80px;
+    max-width: 100%;
+}
+
+.choose2{
+    background: var(--grey-color);
+    padding-top: 100px;
+    text-align: center;
+}
+
+.choose2-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.choose-item a{
+    width: 50px;
+    height: 50px;
+    border: 1px dashed rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.choose-item h3{
+    margin: 30px 0 10px;
+}
+
+/* End of choose section styling */
+.chef {
+    text-align: center;
+}
+.chef .chef-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    place-content: center;
+}
+
+
+.chef-img{
+    position: relative;
+    height: 74%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.chef-item .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(229, 76, 42, 0.7);
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease;
+}
+
+.image-overlay i {
+    font-size: 48px; 
+    color: #fff;
+    cursor: pointer;
+}
+
+.chef-img:hover .image-overlay {
+    opacity: 1;
+}
+
+.chef-item{
+    margin: 40px 10px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.chef-item div{
+    padding: 10px;
+}
+
+.chef .chef-grid .chef-hide{
+    display: none;
+}
+
+@media (max-width: 1040px) {
+    .hide{
+        display: none;
+    }
+
+    .about-content .right{
+        top: -30px;
+        right: 70px;
+    }
+    .about-content .right, .about-content .left{
+        min-width: 400px;
+        max-width: 400px;
+    }
+
+
+}
+
+@media (max-width:900px) {
+    .about-content{
+        flex-direction: column;
+    }
+    .about-content .right, .about-content .left{
+        min-width: 100%;
+        max-width: 100%;
+    }
+    .about-content .right{
+        top: 0px;
+        right: 0px;
+    } 
+    .hide{
+        display: block;
+    } 
+    .factor .factor-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    } 
+    .factor-grid .fun-icon:last-child{
+        display: none;
+    }
+    .factor h2.counter{
+        font-size: 2rem;
+        margin-top: 20px;
+    }
+
+    .choose .choose-img{
+        top: 100px;
+        margin-top: -80px;
+    }
+
+    .choose2{
+        padding: 80px 0 0 0;
+    }
+    .chef .chef-grid{
+        grid-template-columns: 1fr;
+    }
+    .chef .chef-grid .chef-hide{
+        display: block;
+    }
+}
+
+@media (max-width:740px) {
+    .factor .factor-grid{
+        grid-template-columns: 1fr 1fr ;
+        gap: 1.2rem 0;
+    } 
+    .factor-grid .fun-icon:last-child{
+        display: block;
+    }
+
+    .choose{
+        background: none;
+    }
+
+    .choose2-grid{
+        grid-template-columns: 1fr;
+    }
+    .choose-item p{
+        margin: auto;
+        width: 430px;
+    }
+    .choose2{
+        padding: 70px 0 0 0;
+    }
+}
+
+@media (max-width:500px){
+    .choose-item p{
+        width: 277px;
+    }
+}
