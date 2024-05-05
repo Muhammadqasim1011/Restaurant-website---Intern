@@ -96,6 +96,10 @@ header {
 
 }
 
+.nav-item li a.active {
+    color: var(--red-color);
+}
+
 
 .sticky {
     position: sticky;
