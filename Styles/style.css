@@ -697,6 +697,8 @@ footer .last p span a{
     .nav-item.active {
         opacity: 1;
         pointer-events: all;
+        display: inline-flex;
+        width: 100%;
     }
 
     .nav-item li {
@@ -728,9 +730,11 @@ footer .last p span a{
 
     .menu-box{
         grid-template-columns: 1fr;
+        margin: auto;
     }
     .menu-box .left,.menu-box .right {
         margin: auto;
+        width: 499px;
     }
     .menu-item1{
         margin-top: 0;
@@ -852,6 +856,12 @@ footer .last p span a{
     .search{
         display: none;
     }
+    .menu-box .left,
+    .menu-box .right{
+        width: 90%;
+        margin: auto;
+    }
+
 }
 @media (max-width: 502px){
     .itemlist li{

@@ -221,7 +221,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const items = document.querySelectorAll('.menu-box .menu-item');
         items.forEach(item => {
             if (filter === 'all' || item.classList.contains(filter)) {
-                item.style.display = 'flex'; // Show the menu item
+                item.style.display = 'inline-flex'; // Show the menu item
             } else {
                 item.style.display = 'none'; // Hide the menu item
             }
