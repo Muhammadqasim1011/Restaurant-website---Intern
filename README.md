@@ -2,6 +2,20 @@
 
 This project aims to develop a modern and user-friendly website for a restaurant, providing an attractive online platform for customers to explore the menu, learn about the establishment, and make reservations.
 
+**Challenge Faced:** 
+During the development process, we encountered several challenges that tested our problem-solving abilities. One significant difficulty arose when integrating JavaScript functionality for the navigation menu. Despite our best efforts, we faced issues with the links not functioning properly and the active state not displaying correctly.
+
+**Solution:** 
+To address these challenges, we conducted a comprehensive review of our JavaScript code and identified areas for improvement. By refactoring our code and ensuring consistent naming conventions and event handling, we were able to resolve the issues with the navigation menu functionality.
+
+Another challenge we encountered was optimizing the website's performance, particularly in terms of page loading speed. We observed that certain images were taking too long to load, impacting the overall user experience.
+
+**Solution:** 
+To improve performance, we implemented various optimizations, including compressing and resizing images to reduce file sizes without compromising quality. Additionally, we utilized browser caching and lazy loading techniques to defer the loading of non-essential resources, resulting in faster page load times.
+
+**Conclusion:** 
+Despite the obstacles we faced, our collaboration on this project was immensely rewarding. Through teamwork, perseverance, and a commitment to excellence, we were able to overcome challenges and deliver a high-quality website that exceeded expectations. This experience reinforced the importance of attention to detail, effective communication, and continuous improvement in achieving project success. I'm grateful for the opportunity to learn and grow with InternCraft, and I look forward to applying these lessons to future projects. 
+
 **Features:**
 - **Home Page:** Introduces the restaurant, showcases popular dishes, and invites visitors to explore further.
 - **About Us Page:** Provides insights into the restaurant's history, values, and team.
@@ -32,3 +46,5 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 **Contact:**
 For questions or further information about the project, please contact [your contact information].
+
+**Title: Building a Restaurant Website with InternCraft**
