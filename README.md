@@ -1,4 +1,4 @@
-**Restaurant Website Project**
+**Title: Building a Restaurant Website with InternCraft**
 
 This project aims to develop a modern and user-friendly website for a restaurant, providing an attractive online platform for customers to explore the menu, learn about the establishment, and make reservations.
 
@@ -45,6 +45,5 @@ Contributions to this project are welcome! Feel free to fork the repository, mak
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
 
 **Contact:**
-For questions or further information about the project, please contact [your contact information].
+For questions or further information about the project, please contact [www.linkedin.com/in/-muhammad-qasim].
 
-**Title: Building a Restaurant Website with InternCraft**
