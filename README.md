@@ -1,4 +1,8 @@
-**Restaurant Website Project**
+**Building a Restaurant Website with InternCraft**
+
+**Introduction:**
+
+Excited to share my recent experience collaborating with InternCraft on a challenging web development project! As part of the team, I had the opportunity to contribute to the creation of a dynamic website for a fictional restaurant called "Resta". InternCraft provided invaluable support and guidance throughout the project, allowing us to showcase our skills in a real-world setting.
 
 **Background:**
 This project aims to develop a modern and user-friendly website for a restaurant, providing an attractive online platform for customers to explore the menu, learn about the establishment, and make reservations.
