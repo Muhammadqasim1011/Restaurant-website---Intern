@@ -1,5 +1,6 @@
-**Title: Building a Restaurant Website with InternCraft**
+**Restaurant Website Project**
 
+**Background:**
 This project aims to develop a modern and user-friendly website for a restaurant, providing an attractive online platform for customers to explore the menu, learn about the establishment, and make reservations.
 
 **Challenge Faced:** 
@@ -10,7 +11,6 @@ To address these challenges, we conducted a comprehensive review of our JavaScri
 
 Another challenge we encountered was optimizing the website's performance, particularly in terms of page loading speed. We observed that certain images were taking too long to load, impacting the overall user experience.
 
-**Solution:** 
 To improve performance, we implemented various optimizations, including compressing and resizing images to reduce file sizes without compromising quality. Additionally, we utilized browser caching and lazy loading techniques to defer the loading of non-essential resources, resulting in faster page load times.
 
 **Conclusion:** 
